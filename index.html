@@ -1,0 +1,42 @@
+<!DOCTYPE dotted>
+<dotted lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Untitled-1.css">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <button>Donate now</button>
+
+    <section>
+      <h2>Customise this button!</h2>
+
+      <form id="customiseForm">
+        <label class="borderRadius" for="border-radius">Border radius: 10px</label>
+        <input type="range" min="1" max="100" value="10" id="borderRadius">
+
+        <label class="paddingX" for="paddingX">X-Axis Padding: 20px</label>
+        <input type="range" min="10" value="30" max="100" id="paddingX">
+
+        <label class="paddingY" for="paddingY">Y-Axis Padding: 30px</label>
+        <input type="range" min="10" value="20" max="100" id="paddingY">
+
+        <label for="fontColor">Font Color</label>
+        <input type="color" id="fontColor" value="#FFFFFF">
+
+        <label for="bgColor">Solid Background Color</label>
+        <input type="color" id="bgColor" value="#1d74ff">
+
+        <input type="button" id="random" value="Random Background Colour">
+        <input type="button" id="resetBtn" value="Reset">
+      </form>
+
+    </section>
+    <script src="script.js"></script>
+  </body>
+
+</dotted>
